@@ -1,4 +1,4 @@
-Git_Structure
+##Git_Structure
 
 A tool that lets users visualize the file/folder structure of a GitHub repository in a diagrammatic/tree format.
 
