@@ -1,4 +1,4 @@
-##Git_Structure
+<img width="1919" height="858" alt="Screenshot 2025-09-14 231623" src="https://github.com/user-attachments/assets/b9517d37-20af-4649-a630-e2ac417b76d9" />Git_Structure
 
 A tool that lets users visualize the file/folder structure of a GitHub repository in a diagrammatic/tree format.
 
@@ -72,6 +72,9 @@ npm run build
 
 
 🚧 TODO / Planned Improvements
+![Upload<img width="1905" height="859" alt="Screenshot 2025-09-14 231654" src="https://github.com/user-attachments/assets/7d6d7335-d66<img width="1901" height="864" alt="Screenshot 2025-09-14 231707" src="https://github.com/user-attachments/assets/805fec07-c44e-4acf-abd2-535f53c46fd4" />
+d-4d1f-954c-5833f92fd43c" />
+ing Screenshot 2025-09-14 231623.png…]()
 
 1. Support for private GitHub repositories (via tokens)
 
