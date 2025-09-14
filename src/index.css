@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Underdog&display=swap");
+
+.scrollbar-hidden::-webkit-scrollbar{
+    display: none;
+}
+
+@theme{
+    --font-underdog: "Underdog", system-ui
+}
