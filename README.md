@@ -1,4 +1,6 @@
-Git_Structure
+<img width="1919" height="858" alt="Screenshot 2025-09-14 231623" src="https://github.com/user-attachments/assets/b9517d37-20af-4649-a630-e2ac417b76d9" />
+
+<h1 style="font-weight:800 font-size:30px">Git Structure</h1>
 
 A tool that lets users visualize the file/folder structure of a GitHub repository in a diagrammatic/tree format.
 
@@ -12,21 +14,8 @@ A tool that lets users visualize the file/folder structure of a GitHub repositor
 
 4. Interactive nodes (click to view paths or for further actions)
 
-Responsive layout for large directory trees
+5. Responsive layout for large directory trees
 
-📁 Folder Structure
-Git_Structure/
-├ public/
-│   └ index.html
-├ src/
-│   ├ components/
-│   ├ RepoTree.jsx
-│   ├ App.jsx
-│   └ main files...
-├ .gitignore
-├ package.json
-├ vite.config.js
-└ README.md
 
 🚀 Getting Started
 
@@ -61,6 +50,9 @@ npm run build
 4. Clickable nodes reveal full file paths or additional info
 
 5. Export Diagram in an SVG fromat.
+
+<img width="1901" height="864" alt="Screenshot 2025-09-14 231707" src="https://github.com/user-attachments/assets/cea2e275-98d5-45f6-924a-9664c87cbb8a" />
+<img width="1905" height="859" alt="Screenshot 2025-09-14 231654" src="https://github.com/user-attachments/assets/883b9945-0d57-4fc9-b508-10d50cdb70fb" />
 
 🧩 Technical Stack
 
