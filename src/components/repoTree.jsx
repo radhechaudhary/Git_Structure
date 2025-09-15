@@ -34,7 +34,7 @@ export default function RepoTree({ mermaidCode, setSvgContent }) {
   
   return (
     <div>
-      <div className=" w-full overflow-auto " ref={containerRef}></div>
+      <div className=" w-full overflow-auto bg-slate-900 p-2" ref={containerRef}></div>
       
     </div>
   );
