@@ -12,7 +12,7 @@ export default function RepoTree({ mermaidCode, setSvgContent }) {
         startOnLoad: true,
         theme: "dark",
         themeVariables: {
-            fontSize: "16px",
+            fontSize: "18px",
         },
         flowchart: {
             useMaxWidth: true,
