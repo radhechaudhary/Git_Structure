@@ -16,8 +16,9 @@ export default function RepoTree({ mermaidCode, setSvgContent }) {
         },
         flowchart: {
             useMaxWidth: true,
+            
             nodeSpacing: 10,
-            rankSpacing: 100,
+            rankSpacing: 200,
         },
     });
 
@@ -33,7 +34,7 @@ export default function RepoTree({ mermaidCode, setSvgContent }) {
   
   return (
     <div>
-      <div className=" w-full overflow-auto scrollbar-hidden " ref={containerRef}></div>
+      <div className=" w-full overflow-auto " ref={containerRef}></div>
       
     </div>
   );

@@ -134,7 +134,7 @@ const downloadSVG = () => {
 
   return (
 
-    <div id='body' className='w-full min-h-[100vh]  bg-slate-800 text-slate-200 font-underdog flex flex-col items-center justify-between gap-10 bg-[url("/carbon-fibre.png")] '>
+    <div id='body' className={`w-full min-h-[100vh]  bg-slate-800 text-slate-200 font-underdog flex flex-col items-center  gap-10 bg-[url("/carbon-fibre.png")] `}>
       <div id='navbar' className='w-full h-15 bg-slate-800 flex justify-between items-center px-2.5 '>
         <div className='flex items-center'>
           <img className='h-11' src='./icon.png'/>
