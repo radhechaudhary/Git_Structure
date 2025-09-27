@@ -12,7 +12,7 @@ export default function RepoTree({ mermaidCode, setSvgContent }) {
         startOnLoad: true,
         theme: "dark",
         themeVariables: {
-            fontSize: "18px",
+            fontSize: "25px",
         },
         flowchart: {
             useMaxWidth: true,
@@ -26,7 +26,7 @@ export default function RepoTree({ mermaidCode, setSvgContent }) {
       const renderId = `mermaid-${Date.now()}`; // unique id for diagram
       mermaid.render(renderId, mermaidCode).then(({ svg }) => {
         containerRef.current.innerHTML = svg; // inject SVG
-        setSvgContent(svg)
+        setSvgContent(svg) // for downloading svg
       });
     }
   }, [mermaidCode]);
@@ -35,7 +35,6 @@ export default function RepoTree({ mermaidCode, setSvgContent }) {
   return (
     <div>
       <div className=" w-full overflow-auto bg-slate-900 p-2" ref={containerRef}></div>
-      
     </div>
   );
 }

@@ -164,19 +164,20 @@ const downloadSVG = () => {
           {isGenerated?<div className='flex gap-2'>
           <button
             onClick={downloadSVG}
-            className="mt-4 px-3 py-[6px] bg-blue-500 text-white rounded cursor-pointer active:scale-90"
+            className="mt-4 px-3 py-[6px] bg-blue-900 text-white rounded cursor-pointer active:scale-90"
           >
             Download SVG
           </button>
           {!isToggeled?<button
             onClick={()=>setIsToggeled(!isToggeled)}
-            className="mt-4 px-3 py-[6px] bg-blue-500 text-white rounded cursor-pointer active:scale-90"
+            className="mt-4 px-3 py-[6px] bg-blue-900 text-white rounded cursor-pointer active:scale-90 flex gap-1 items-center"
           >
             Show Summary
+            <img  className='h-7 w-7' src='./gemini-icon.svg'/>
           </button>:
           <button
             onClick={()=>setIsToggeled(!isToggeled)}
-            className="mt-4 px-3 py-[6px] bg-blue-500 text-white rounded cursor-pointer active:scale-90"
+            className="mt-4 px-3 py-[6px] bg-blue-900 text-white rounded cursor-pointer active:scale-90"
           >
             Show Diagram
           </button>}
